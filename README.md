@@ -25,3 +25,28 @@ private void showUpButton(boolean show) {
     }
 }
 ```
+
+Animated object listener:
+```java
+animation.addListener(new Animator.AnimatorListener() {
+                @Override
+                public void onAnimationStart(Animator animation) {
+
+                }
+
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    Toast.makeText(VideoEditorActivity.this, "animation ended", Toast.LENGTH_LONG).show();
+                }
+
+                @Override
+                public void onAnimationCancel(Animator animation) {
+
+                }
+
+                @Override
+                public void onAnimationRepeat(Animator animation) {
+
+                }
+            });
+```
