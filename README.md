@@ -1,4 +1,4 @@
-showUpButton függvény:
+showUpButton function:
 ```java
 private void showUpButton(boolean show) {
 
